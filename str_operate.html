@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是字符串操作页面</title>
+    <script>
+        function getUpperCase() {
+            var name = 'hello';
+            return name.toUpperCase();
+        }
+        console.log(getUpperCase());
+        function makeFirstToUpperCase() {
+            var sentence = 'good afternoon, mr mike.';
+            var newarr, newarr1 = [];
+            newarr = sentence.split(" ");
+            for (var i = 0; i < newarr.length; i++) {
+                newarr1.push(newarr[i][0].toUpperCase() + newarr[i].substring(1));
+            }
+            return newarr1.join(' ');
+        }
+        var str=makeFirstToUpperCase();
+        console.log(str);
+        function getMoney(){
+            var money = '￥20';
+            return money.substring(1);
+        }
+        console.log(getMoney());
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
