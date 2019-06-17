@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是对象操作页面</title>
+    <script>
+        function obj_operate() {  //对user对象进行操作
+            var user = {};
+            user['name'] = 'John';
+            user['surname'] = 'Mike';
+            console.log("first name:" + user['name']);
+            user['name'] = 'Peter';
+            console.log("second name:" + user['name']);
+            delete user.name;
+            console.log("删除name后属性的user" + user);
+        }
+        obj_operate();
+        function countFruit() {
+            var fruit = {
+                apple: 20,
+                pear: 20,
+                peach: 10
+            };
+            var sum = fruit.apple + fruit.pear + fruit.peach;
+            console.log(sum);
+        }
+        countFruit();
+    </script>
+</head>
+
+<body>
+<p>答案在控制台显示</p>
+</body>
+
+</html>
