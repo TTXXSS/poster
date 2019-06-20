@@ -1,0 +1,5 @@
+git checkout
+git reset
+git reset --hard HEAD
+git revert
+git revert HEAD...HEAD~2 
