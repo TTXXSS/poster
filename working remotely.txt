@@ -1,0 +1,4 @@
+git remote add origin by "/s/remote-project/1"
+git push origin master
+git pull origin master
+git fetch

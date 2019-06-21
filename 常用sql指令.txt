@@ -1,0 +1,32 @@
+1.DDL
+数据库级的操作：
+1.显示所有数据库：show databases;
+
+2.进入某个数据库：USE DATABASE <数据库名>；
+3.创建名为 db1 的数据库：create database db1;
+
+
+4.创建一个使用utf8字符集的 db2 数据库：create database db2 charset=utf8;
+
+
+5. 显示创建数据库的信息：show create database 数据库名；
+6.修改数据库编码：alter database 数据库名 charset=gbk;
+
+7， 数据库删除：DROP DATABASE [IF EXISTS] 数据库名;
+
+表级别的操作：
+
+1.修改表名：rename table 原表名 to 新表名；
+2.修改字段数据类型：alter table 表名 modify column 列名 新的列的类型
+3.修改字段名：alter table <表名> change <字段名> <字段新名称> <字段的类型>
+4.增加字段：alter table 表名 add 字段 类型
+5.删除字段：lter table 表名 drop 列名 类型;
+6.修改表的存储引擎：alter table mytest ENGINE = 引擎名字;
+7.删除表的外键约束：alter table 表名 drop foreign key 外键名;
+8.删除一张表：drop table <表名>
+
+2.DML
+1.插入记录：insert into 表名 values(, , ,);
+2.修改记录：alter table set 字段名=新的字段值；
+3.删除记录：delete from 表名 where 表达式
+4.查询记录：select * from 表名 where 表达式

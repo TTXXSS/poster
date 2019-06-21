@@ -1,0 +1,6 @@
+git checkout -b new_branch
+git branch -va
+git checkout master
+git merge new_branch
+git push origin master
+git branch -d new_branch

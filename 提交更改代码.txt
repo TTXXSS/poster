@@ -1,0 +1,5 @@
+git status
+git diff committed.js
+git add committed.js
+git diff --staged
+git log

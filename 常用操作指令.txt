@@ -1,0 +1,17 @@
+ Alt + Enter(windows/Linux)：智能提示
+
+ Ctrl + D(windows/Linux)：复制行
+
+ Ctrl + X(windows/Linux)：剪切行
+
+Ctrl + Y(windows/Linux)：删除行
+ 
+Alt + Ctrl + Enter：上方插入行
+
+ Shift + Enter(windows/Linux)：下方插入行
+
+ Ctrl + Shift + 方向键(windows/Linux)：移动行
+
+Ctrl + W(windows/Linux)：扩大选区
+
+Ctrl + Shift + Enter(windows/Linux)：补全代码
